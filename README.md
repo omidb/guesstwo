@@ -18,4 +18,4 @@ The X and Y are two types of vehicles. X is a smaller vehicle than Y. The X has 
 
 ### Download
 
-We are collecting more data and increasing the quality. The first version is comming soon! Please fill [this](https://goo.gl/forms/pHMlPZvrou8UIY3D3) form to get the data whenever it's ready!
+We are collecting more data for version 1.0 . The first version is comming soon! Please fill [this](https://goo.gl/forms/pHMlPZvrou8UIY3D3) form to get the data whenever it's ready!
