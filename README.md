@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## GuessTwo
 
-You can use the [editor on GitHub](https://github.com/omidb/guesstwo/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can look at the paper which was published at ACL 2017 [here](http://www.aclweb.org/anthology/P/P17/P17-1084.pdf).  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Abstract
 
-### Markdown
+Understanding common entities and their attributes is a primary requirement for any system that comprehends natural language. In order to enable learning about common entities, we introduce a novel machine comprehension task, GuessTwo: given a short paragraph comparing different aspects of two realworld semantically-similar entities, a system should guess what those entities are. Accomplishing this task requires deep language understanding which enables inference, connecting each comparison paragraph to different levels of knowledge about world entities and their attributes. So far we have crowdsourced a dataset of more than 14K comparison paragraphs comparing entities from a variety of categories such as fruits and animals. We have designed two schemes for evaluation: open-ended, and binary-choice prediction. For benchmarking further progress in the task, we have collected a set of paragraphs as the test set on which human can accomplish the task with an accuracy of 94.2% on open-ended prediction. We have implemented various models for tackling the task, ranging from semantic-driven to neural models. The semantic-driven approach outperforms the neural models, however, the results indicate that the task is very challenging across the models.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Examples
 
-```markdown
-Syntax highlighted code block
+## Red Delicious, Granny Smith
 
-# Header 1
-## Header 2
-### Header 3
+Both X and Y are fruits and a variety of apples. X and Y are generally similar in size. X are dark red in color when ripe, while Y are a bright green color. X is sweeter and softer than Y in taste and texture, sometimes starchy. Y are tart and somewhat stringy. Y is often used in cooking, whereas X is not.
 
-- Bulleted
-- List
+## Motorcycle, Helicopter
 
-1. Numbered
-2. List
+The X and Y are two types of vehicles. X is a smaller vehicle than Y. The X has two wheels while Y has none. The X travels on roadways and smooth surfaces, whereas Y is capable of flying. Only one or two people are able to ride on X at once, while Y can carry more people.
 
-**Bold** and _Italic_ and `Code` text
+### Download
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/omidb/guesstwo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The first version is comming soon!
